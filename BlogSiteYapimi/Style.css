@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  font-family: "cambria", sans-serif;
+}
+
+header {
+  padding: 20px;
+  overflow: auto;
+}
+
+header h1 {
+  margin: 0;
+  float: left;
+  font-size: 1.5em;
+}
+
+header span {
+  float: right;
+  padding-top: 5px;
+}
+
+.link {
+  color: #4682b4;
+  font-weight: bold;
+  padding-left: 12px;
+  text-decoration: none;
+}
+
+nav {
+  overflow: auto;
+  clear: both;
+  background-color: #444;
+  padding: 20px;
+  color: white;
+}
+
+nav h2 {
+  margin: 0;
+  float: left;
+}
+
+nav span {
+  float: right;
+  padding-top: 7px;
+  color: #908f97;
+}
+
+main {
+  margin: 30px 0;
+  clear: both;
+  padding: 0 20px;
+}
+
+.sol-taraf {
+  width: 30%;
+  float: left;
+  padding: 0 10px;
+}
+
+.sag-taraf {
+  width: 70%;
+  float: right;
+}
+
+.arama {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.kutu {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  overflow: auto;
+}
+
+.kutu span {
+  color: #1e4362;
+  font-weight: 600;
+}
+
+.baslik {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 17px;
+  color: #4682b4;
+}
+
+hr {
+  border-width: 0;
+  height: 1px;
+  background-color: #dedede;
+}
+
+.satir {
+  clear: both;
+  padding-top: 15px;
+}
+
+.satir-sol {
+  float: left;
+  width: 12%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #2b2c3e;
+}
+
+.satir-sag {
+  float: right;
+  width: 88%;
+}
+
+h4 {
+  margin: 0;
+  color: #2b2c3e;
+}
+
+.satir-sag span {
+  font-size: 12px;
+  color: #d3d3d3;
+}
+
+.card {
+  margin: 5px;
+  float: left;
+  width: 33%;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+
+.icerik {
+  padding: 10px;
+}
+
+.icerik p {
+  color: #908f97;
+  font-size: 13px;
+}
+
+.icerik div {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #908f97;
+}
+
+.sayfalandirma {
+  clear: both;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.sayfalandirma span {
+  width: 30px;
+  background-color: #1e4362;
+  padding: 10px;
+  margin-right: 5px;
+  color: white;
+}
+
+footer {
+  font-size: 10px;
+  clear: both;
+  padding: 20px;
+  background-color: rgb(121, 77, 77);
+  color: white;
+  overflow: auto;
+}
+
+.bolum {
+  width: 25%;
+  float: left;
+}
+.bolum p {
+  padding: 5px 0;
+  margin: 0;
+}
+.bolum h3 {
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
